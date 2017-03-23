@@ -65,4 +65,4 @@ const styles = {
 	}
 }
 
-export default AlbumDetail;
+export { AlbumDetail };

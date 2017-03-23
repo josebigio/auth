@@ -17,7 +17,7 @@ const styles = {
 };
 
 
-export default class Card extends Component {
+class Card extends Component {
 
 	render() {
 		return (
@@ -25,3 +25,5 @@ export default class Card extends Component {
 		);
 	}
 };
+
+export { Card };
