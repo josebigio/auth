@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import firebase from 'firebase';
 import { Header } from './components/common';
-
+import LoginForm from './components/LoginForm';
 export default class App extends Component {
 
 	componentWillMound() {
@@ -19,7 +19,7 @@ export default class App extends Component {
 		return (
 			<View>
 				<Header headerText={"Auth"}/>
-				<Text>Hello World</Text>
+				<LoginForm/>
 			</View>
 		);
 	}
